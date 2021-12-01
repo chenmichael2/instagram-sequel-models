@@ -2,14 +2,14 @@
   "development": {
     "username": "postgres",
     "password": "Ianotw00",
-    "database": "database_development",
+    "database": "insta_development",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
     "password": "Ianotw00",
-    "database": "database_test",
+    "database": "insta_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
