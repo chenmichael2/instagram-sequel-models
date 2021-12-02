@@ -193,9 +193,9 @@ const db = require('./models')
 // })
 
 // db.Mypost.update({
-//     comments: 7
+//     description: 'Second official ball will some new people and some even older. Probably a ball I will remember for a long time especially shaking hands with our former Commandant of the MC! Who needs someone to hold my hand as a date when the pervious most powerful hands created could hold my hand. Happy Birthday Marine Corps and another 3 years to see what is to come.'
 // }, {
-//     where: { id: 2 }
+//     where: { id: 1 }
 // })
 // .then(function(res) {
 //     console.log('Updated');
@@ -218,7 +218,7 @@ const db = require('./models')
 // DESTROY
 
 // db.Mypost.destroy({
-//     where: { id: 1 }
+//     where: { id: 3 }
 // })
 // .then(function(destroyed) {
 //     console.log('Post destroyed', destroyed);

@@ -233,7 +233,17 @@ const db = require('./models');
 // .catch(function(err) {
 //     console.log('THERE IS AN ERROR', err);
 // })
-
+db.Post.update({
+    description: 'Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...Coming up at #DizzysClub...'
+}, {
+    where: { id: 1 }
+})
+.then(function(res) {
+    console.log('Updated');
+})
+.catch(function(err) {
+    console.log('THERE IS AN ERROR', err);
+})
 // db.Post.update({
 //     post: 'picture 3'
 // }, {
